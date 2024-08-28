@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DASHBOARD</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="vales">
+                <img src="Images/arrowicon.svg">
+                <h4>Vales</h4>   
+            </div>  
+            <div class="profile">
+                <img src="Images/OIP.jpg">
+                <p>Aji Wahyu</p>
+            </div> 
+            <div class="menu">
+                <h4>MENU</h4>
+                <div class="dashboard">
+                    <img src="Images/dashboardicon.svg">
+                    <p>Dashboard</p>
+                </div>
+                <div class="statistics">
+                    <img src="Images/statisticsicon.svg">
+                    <p>Statistics</p>
+                </div>
+                <div class="statistics">
+                    <img src="Images/producticon.svg">
+                    <p>Products</p>
+                </div>
+                <div class="statistics">
+                    <img src="Images/salesicon.svg">
+                    <p>Sales</p>
+                </div>
+                <div class="statistics">
+                    <img src="Images/groupicon.svg">
+                    <p>Group</p>
+                </div>
+            </div> 
+            <div class="settings">
+                <h4>SETTINGS</h4>
+                <div class="settings-icon">
+                    <img src="Images/settingicon.svg">
+                    <p>Setting</p>
+                </div>
+                <div class="settings-icon">
+                    <img src="Images/logouticon.svg">
+                    <p>Logout</p>
+                </div>
+            </div> 
+        </div>
+        <div class="main">
+            <div class="header">
+                <div class="board">
+                    <h2>DASHBOARD</h2>
+                </div>
+                    <input 
+                    type="text" id="search" placeholder="Search your course...">
+                <div class="icon-container">
+                    <div class="icons">
+                        <img src="Images/mailicon.svg">
+                    </div>
+                    <div class="icons">
+                        <img src="Images/notificationbell.svg">
+                    </div>
+                    <div class="icons">
+                        <img src="Images/settingicon.svg">
+                    </div>
+                </div>
+            </div>
+                <div class="hero">
+                    <div class="chart">
+                        <img src="Images/barchart.png">
+                        <div class="chart-container">
+                            <div class="income">
+                                <h6>Total Income</h6>
+                                <p id="money">$250,964</p>
+                                <div class="graph-increase">
+                                <img src="Images/graphincrease.svg">
+                                <p>+12.05% than last week</p>
+                                </div>
+                            </div>
+                            <div class="income">
+                                <h6>Total Expense</h6>
+                                <p id="money">$108,351</p>
+                                <div class="graph-increase">
+                                    <img src="Images/graphincrease.svg">
+                                    <p>-08.16% than last week</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="piechart">
+                            <div class="weekdays">
+                            <h5>Statistics</h5>
+                            <label for="week"></label>
+                            <select id="week" name="week">
+                                <option value="Week">Week</option>
+                                <option value="Monday">Monday</option>
+                                <option value="Tuesday">Tuesday</option>
+                                <option value="Wednesday">Wednesday</option>
+                                <option value="Thursday">Thursday</option>
+                                <option value="Friday">Friday</option>
+                                <option value="Saturday">Saturday</option>
+                                <option value="Sunday">Sunday</option>
+                            </select>
+                            </div>
+                            <img src="Images/piechart.jpeg">
+                            <div class="values">
+                                <div class="shopping">
+                                    <img src="Images/blueradio.svg">
+                                    <h4>$180</h4>
+                                    <p id="shop">Shopping</p>
+                                </div>
+                                <div class="kolor">
+                                    <img src="Images/skyblueradio.svg">
+                                    <h4>$204</h4>
+                                    <p>Kolor</p>
+                                </div>
+                                <div class="kolor">
+                                    <img src="Images/greyradio.svg">
+                                    <h4>$320</h4>
+                                    <p>Bench</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="transaction-container">
+                        <h5>Last Transaction</h5>
+                        <div class="dates">
+                            <div class="month">Month</div>
+                            <div class="date">Day</div>
+                            <div class="date">Year</div>
+                        </div>
+                        <div class="icons">
+                            <img src="Images/settingicon.svg">
+                        </div>
+                    </div>
+                    <table>
+                        <tr>
+                            <th>No</th>
+                            <th>Product</th>
+                            <th>Order date</th>
+                            <th>Price</th>
+                            <th>Status</th>
+                            <th>People</th>
+                            <th>Action</th>
+                        </tr>
+                        <tr>
+                            <td>01</td>
+                            <td>
+                                <div class="apple"><img src="Images/applelogo.svg">Apple</div>
+                            </td>
+                            <td id="oct">Nov 02, 2021</td>
+                            <td id="dollars">$340.00</td>
+                            <td><button id="success">Success</button></td>
+                            <td><div class="lady"><img src="Images/OIP.jpg">
+                            <p>Wachid Dora</p></div></td>
+                            <td><div class="actions"> 
+                                <p id="edit">Edit</p>
+                                <p id="delete">Delete</p>
+                            </div>
+                        </td>
+                        </tr>
+                        <tr>
+                            <td>02</td>
+                            <td><div class="netflix"><img src="Images/netflixlogo.svg">Netflix</div></td>
+                            <td id="oct">Oct 32, 2021</td>
+                            <td id="dollars">$240.00</td>
+                            <td><button id="denied">Denied</button></td>
+                            <td><div class="lady"><img src="Images/shirt.jpg">
+                                <p id="mario">Mario Zwinkle</p>
+                            </div>
+                            </td>
+                            <td><div class="actions"> 
+                                <p id="edit">Edit</p>
+                                <p id="delete">Delete</p>
+                            </div>
+                        </td>
+                        </tr>
+                        <tr>
+                            <td>01</td>
+                            <td>
+                                <div class="paypal"><img src="Images/paypallogo.svg">Paypal</div>
+                            </td>
+                            <td id="oct">Sept 16, 2021,</td>
+                            <td id="dollars">$160.00</td>
+                            <td><button id="success">Success</button></td>
+                            <td>
+                                <div class="lady"><img src="Images/tshirt.jpg">
+                                    <p>Bacill Wyllan</p>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="actions">
+                                    <p id="edit">Edit</p>
+                                    <p  id="delete">Delete</p>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>01</td>
+                            <td>
+                                <div class="amazon"><img src="Images/amazonlogo.svg">Amazon</div>
+                            </td>
+                            <td id="oct">Feb 29, 2021</td>
+                            <td id="dollars">$208.00</td>
+                            <td><button id="success">Success</button></td>
+                            <td>
+                                <div class="lady"><img src="Images/jollofrice.jpg">
+                                    <p>Aji Wahyu</p>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="actions"> 
+                                    <p id="edit">Edit</p>
+                                    <p id="delete">Delete</p>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+</body>
+</html>

@@ -1,0 +1,309 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+}
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 40px 20px 20px;
+  width: 20%;
+  height: 100vh;
+  max-width: 100%;
+  position: relative;
+  z-index: 1;
+}
+.sidebar:hover {
+  color: blue;
+}
+.vales {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 60px;
+}
+.vales img {
+  width: 10%;
+  border-radius: 50px;
+}
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.profile img {
+  width: 10%;
+  border-radius: 50px;
+}
+.menu {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.menu h4 {
+  color: gray;
+}
+.main {
+  height: 100vh;
+  max-height: 80vh;
+  overflow-y: scroll;
+}
+.dashboard {
+  display: flex;
+  gap: 10px;
+  border: 0px;
+  border-radius: 10px;
+  width: 50%;
+  background-color: whitesmoke;
+}
+.search {
+  display: flex;
+}
+.statistics {
+  display: flex;
+  gap: 10px;
+}
+.main {
+  height: 100%;
+  width: 80%;
+  padding: 20px 40px 20px 20px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+#search {
+  margin-left: 60px;
+  border-radius: 30px;
+  padding: 10px;
+  width: 50%;
+}
+/* .search input { */
+/* position: absolute;
+  top: 60px; */
+/* border-radius: 30px;
+  padding: 10px;
+  width: 100%;
+} */
+.icon-container {
+  display: flex;
+  gap: 30px;
+}
+.icons img {
+  border: 1px solid black;
+  padding: 5px;
+  width: 100%;
+  border-radius: 20px;
+  background-color: whitesmoke;
+}
+.settings {
+  display: flex;
+  margin-top: 100px;
+  flex-direction: column;
+  gap: 25px;
+}
+.settings h4 {
+  color: grey;
+}
+.settings-icon {
+  display: flex;
+  gap: 15px;
+}
+.chart-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+.chart {
+  display: flex;
+}
+.chart img {
+  width: 40%;
+}
+.income {
+  margin-top: 40px;
+  background-color: whitesmoke;
+  border: 0px;
+  border-radius: 8px;
+  width: 100%;
+  padding: 10px;
+}
+#money {
+  font-weight: 800;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 25px;
+}
+.graph-increase {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.graph-increase img {
+  width: 20%;
+}
+.graph-increase p {
+  font-size: 12px;
+}
+.piechart {
+  margin-left: 80px;
+}
+.piechart img {
+  width: 100%;
+}
+.weekdays {
+  display: flex;
+  gap: 100px;
+}
+#week {
+  border-radius: 10px;
+}
+.values {
+  display: flex;
+  gap: 25px;
+  margin: auto;
+}
+.shopping img {
+  width: 25%;
+}
+.shopping h6 {
+  font-weight: 800;
+}
+.shopping p {
+  color: grey;
+  opacity: 0.3;
+}
+.kolor img {
+  width: 40%;
+}
+.kolor h6 {
+  font-weight: 800;
+}
+.kolor p {
+  color: grey;
+  opacity: 0.3;
+}
+.transaction-container {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+.transaction-container h5 {
+  font-size: 20px;
+  font-weight: 800;
+}
+.dates {
+  display: flex;
+  align-items: center;
+  width: 40%;
+  border: 1px solid black;
+  border-radius: 20px;
+  margin-left: 200px;
+}
+.month {
+  width: 20%;
+  border-radius: 20px;
+  background-color: aliceblue;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  gap: 25px;
+}
+.date {
+  margin-left: 40px;
+}
+table {
+  margin-top: 40px;
+  width: 100%;
+  font-size: 18px;
+  text-align: center;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 12px 15px;
+  border: none;
+  border-bottom: 1px solid grey;
+}
+th {
+  /* width: 13%; */
+  color: grey;
+  opacity: 0.3;
+}
+td button {
+  padding: 5px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.apple {
+  display: flex;
+  gap: 15px;
+}
+.netflix {
+  display: flex;
+  gap: 15px;
+}
+.paypal {
+  display: flex;
+  gap: 15px;
+}
+.amazon {
+  display: flex;
+  gap: 15px;
+}
+.lady {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin: auto;
+}
+.lady img {
+  width: 20%;
+  border-radius: 20px;
+}
+.lady p {
+  font-size: 12px;
+}
+#mario {
+  font-size: 11px;
+}
+#dollars {
+  font-weight: 800;
+}
+.actions {
+  display: flex;
+  gap: 25px;
+}
+#edit {
+  color: blue;
+}
+#delete {
+  color: red;
+}
+#oct {
+  color: gray;
+}
+#success {
+  color: green;
+  padding: 10px;
+  background-color: white;
+}
+#denied {
+  color: red;
+  padding: 10px;
+  background-color: white;
+}
+.actions:hover {
+  color: gold;
+}
